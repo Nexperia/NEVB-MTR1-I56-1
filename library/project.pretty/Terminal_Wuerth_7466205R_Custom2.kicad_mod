@@ -1,0 +1,270 @@
+(footprint "Terminal_Wuerth_7466205R_Custom2"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "7466205R-2")
+	(tags "Connector")
+	(property "Reference" "J**"
+		(at 0 -6.25 0)
+		(layer "F.SilkS")
+		(uuid "5e754c54-8ec3-4c0b-8464-30a1174adc14")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "7466205R"
+		(at 0 6.604 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "ba9dba16-fc03-4632-8762-03281caf1897")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4a29b18b-0949-4261-9e97-e142aced3e69")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "aedc2756-11de-414b-a7b2-240a8f6e680e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(zone_connect 2)
+	(attr smd)
+	(fp_circle
+		(center 0 0)
+		(end 5.505679 0)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "489ff688-95d3-4e84-bd54-1f73a7b0de0b")
+	)
+	(fp_rect
+		(start -5.5 -8)
+		(end 5.5 8)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(fill no)
+		(layer "B.SilkS")
+		(uuid "07f68dd3-86ea-4c61-935f-f084a8d4e474")
+	)
+	(fp_line
+		(start -5.5 -8)
+		(end 5.5 -8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "B.CrtYd")
+		(uuid "d0e65d2b-0cbf-4234-a4c9-90b9ffaf5590")
+	)
+	(fp_line
+		(start -5.5 8)
+		(end -5.5 -8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "B.CrtYd")
+		(uuid "05d3e528-8fe5-49bd-9755-cf2cfbc41ead")
+	)
+	(fp_line
+		(start 5.5 -8)
+		(end 5.5 8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "B.CrtYd")
+		(uuid "ebfdce33-6cd2-4cfd-a37a-2865d715bee1")
+	)
+	(fp_line
+		(start 5.5 8)
+		(end -5.5 8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "B.CrtYd")
+		(uuid "ecba1562-2a96-418b-9a55-a62446384521")
+	)
+	(fp_line
+		(start -5.5 -5.5)
+		(end 5.5 -5.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e5c785e3-3333-4e0a-b800-65144cb18d49")
+	)
+	(fp_line
+		(start -5.5 5.5)
+		(end -5.5 -5.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e8b18623-4dca-4205-9d9a-2920913653d8")
+	)
+	(fp_line
+		(start 5.5 -5.5)
+		(end 5.5 5.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "86c12917-ace1-4676-aff7-f280e9d8e506")
+	)
+	(fp_line
+		(start 5.5 5.5)
+		(end -5.5 5.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8b1d6fd2-2014-4c98-ac67-7d584b2c4592")
+	)
+	(fp_line
+		(start 0 -4.5)
+		(end 0 -4.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "198bfef1-3a69-46c0-9379-3eff36404a3c")
+	)
+	(fp_line
+		(start 0 4.5)
+		(end 0 4.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7f5558d9-ad4c-40bd-955e-392b754a3523")
+	)
+	(fp_arc
+		(start 0 -4.5)
+		(mid 4.5 0)
+		(end 0 4.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "eec915f0-4040-44a1-a7e9-0c904ca527c6")
+	)
+	(fp_arc
+		(start 0 4.5)
+		(mid -4.5 0)
+		(end 0 -4.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "29b92478-2e04-4345-ad6c-0cbed73b991a")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 9.25 0)
+		(layer "B.Fab")
+		(uuid "7f168964-d6e6-43c3-afbe-1a3ba4660cf3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -8.89 0)
+		(layer "F.Fab")
+		(uuid "9cf4aca9-cd44-41f3-bcdc-46904932735e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "${VALUE}"
+		(at -6.604 0 270)
+		(layer "F.Fab")
+		(uuid "ea9e2d08-0bfb-4930-9562-8b411a38dd38")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd circle
+		(at 0 0 90)
+		(size 9.5 9.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "8bc502ba-be3e-4ab4-9614-d0fe356787e0")
+	)
+	(pad "1" smd rect
+		(at 0 0)
+		(size 10 15)
+		(layers "B.Cu" "B.Mask")
+		(uuid "6eb2b4b3-2c1d-40a0-b354-2a5cae3c4021")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/library/project.3dshapes/Terminal_Wuerth_7466205R.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 90 0)
+		)
+	)
+	(model "${KIPRJMOD}/library/3D/Mechanical.3dshapes/M5 x 8 Screw head.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

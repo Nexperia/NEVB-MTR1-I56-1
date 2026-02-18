@@ -1,0 +1,188 @@
+(footprint "MountingHole_Keystone_575-4"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "J8"
+		(at 5.25 0 270)
+		(layer "F.SilkS" knockout)
+		(uuid "0c18aedc-217e-4fd3-b318-d243ab16c88e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "GND"
+		(at 6.22682 5.220685 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "fd59686d-6ccd-4f0e-b654-cfd087c9200b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.keyelco.com/product-pdf.cfm?p=2379"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "916e2bed-42a5-43d4-9ed6-044306f38954")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "eab02d04-75b6-4ab3-87d6-9a506845518f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer" "KEYSTONE ELECTRONICS"
+		(at -83.562 195.958 270)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "89047c2a-417b-45fb-a471-cd18e9913234")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mfg Part No" "575-4 "
+		(at -83.562 195.958 270)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bc51af6c-9d24-46dc-8046-18e4de41319d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Sim.Device" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "23ab9bee-19b0-491b-b0c6-30343b788e58")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Sim.Pins" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bfd8b106-afbb-4ddd-9998-99ec04064440")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Sim.Type" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c53d77fe-a08d-4e05-9454-5aefe93e472d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part No" "534-575-4 "
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2a79600f-5357-4e3e-a8c8-f8882b31e879")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "RS Part No" "~"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "352733b9-16b6-4d63-ac28-f73574f47d2e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Farnell Part No" "3366825"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cce0e5a2-33f6-4bc4-a6ba-f78a0b4cc10e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(zone_connect 2)
+	(attr through_hole)
+	(fp_circle
+		(center 0 0)
+		(end 4.2 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "da5d35b4-f62a-4240-88cd-70a0e0d483ec")
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 7.9 7.9)
+		(drill 5.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "7be9ced4-9079-40eb-8a32-a99b50699350")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/library/project.3dshapes/KEYSTONE_575-4.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

@@ -1,0 +1,234 @@
+(footprint "TerminalBlock_Wurth_691252710003"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "691252710003-1")
+	(tags "Connector")
+	(property "Reference" "J**"
+		(at -0.75 -3.25 0)
+		(layer "F.SilkS")
+		(uuid "d9acdb89-3945-4370-bc98-a8a13c9a98be")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "691252710003"
+		(at 5.3 3.45 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "6f0ad119-ba52-4b16-8f13-5d1a855aba15")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8dce19be-ef25-47b4-9338-30d1a7618bb7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4503746e-3d39-41f8-a59e-bccff28721aa")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "eb493f73-97df-4cf3-8ecc-a2430e8386ad")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -2.5 -2.15)
+		(end 13.1 -2.15)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9ca78cf5-513f-4deb-99f5-b5b5a2b6eeeb")
+	)
+	(fp_line
+		(start -2.5 9.05)
+		(end -2.5 -2.15)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "80361134-9849-4650-9f7f-7d33220f2a54")
+	)
+	(fp_line
+		(start 13.1 -2.15)
+		(end 13.1 9.05)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c34d0a02-4198-4830-83a0-d9939dbcbbc6")
+	)
+	(fp_line
+		(start 13.1 9.05)
+		(end -2.5 9.05)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "456a0f11-790e-4427-b17c-2fbfe5a98ed4")
+	)
+	(fp_line
+		(start -3.5 -3.15)
+		(end 14.1 -3.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6063a7a2-ea93-4c98-84e2-554e34a2905e")
+	)
+	(fp_line
+		(start -3.5 10.05)
+		(end -3.5 -3.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b0e72d1e-066e-41e4-a5e2-3257e8d51851")
+	)
+	(fp_line
+		(start 14.1 -3.15)
+		(end 14.1 10.05)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5e1d9f51-d28a-443c-9466-26283c80170f")
+	)
+	(fp_line
+		(start 14.1 10.05)
+		(end -3.5 10.05)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a6a0c371-4e44-4b10-a97c-cc4e0ebd81e2")
+	)
+	(fp_line
+		(start -2.5 -2.15)
+		(end 13.1 -2.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4ee9a61d-3fac-41d6-9e5d-3399265c6b45")
+	)
+	(fp_line
+		(start -2.5 9.05)
+		(end -2.5 -2.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b2f92658-427b-47d7-b07b-9359bc9c2586")
+	)
+	(fp_line
+		(start 13.1 -2.15)
+		(end 13.1 9.05)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5848d94c-b28b-40cc-99fa-1b40b71b7c81")
+	)
+	(fp_line
+		(start 13.1 9.05)
+		(end -2.5 9.05)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9850ff22-b7d7-4ac6-88bb-0d3fa4d36d5a")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 5.3 3.45 0)
+		(layer "F.Fab")
+		(uuid "ebf75859-1758-4eba-ae76-991b3af754b1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 2.25 2.25)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3698634d-a55e-44c9-9ec1-c5bf17c63874")
+	)
+	(pad "2" thru_hole circle
+		(at 5 0)
+		(size 2.25 2.25)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3d20a397-93c6-431f-bffe-31e5c7bead53")
+	)
+	(pad "3" thru_hole circle
+		(at 10 0)
+		(size 2.25 2.25)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "cd769a72-d94a-4da2-92d1-8e383a6beb26")
+	)
+	(model "${KIPRJMOD}/library/project.3dshapes/TerminalBlock_Wuerth_691252710003.stp"
+		(offset
+			(xyz -2.5 -9 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 -90)
+		)
+	)
+)

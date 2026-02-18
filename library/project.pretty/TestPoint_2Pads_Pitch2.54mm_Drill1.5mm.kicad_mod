@@ -1,0 +1,292 @@
+(footprint "TestPoint_2Pads_Pitch2.54mm_Drill1.5mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Test point with 2 pins, pitch 2.54mm, drill diameter 1.5mm")
+	(tags "CONN DEV")
+	(property "Reference" "REF**"
+		(at 0.75 3 0)
+		(layer "F.Fab")
+		(uuid "ed84ad21-ab1d-45a3-848f-6ee24409f5c6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "TestPoint_2Pads_Pitch2.54mm_Drill1.5mm"
+		(at 0 0 0)
+		(layer "F.SilkS" knockout)
+		(uuid "7facfa25-f5ca-45de-af21-ff1e1e1c0f3f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "240eec77-b3e2-4bb3-95ec-c1e7fb7bbc04")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7b698518-8892-435d-afe5-23b8e2e0c845")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "52e56ab8-4221-4cb4-aab2-67a2d4381fc4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start 1.118627 -1.33)
+		(end 3.888 -1.33)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "B.SilkS")
+		(uuid "7068c574-bf0c-4ca7-8456-81f81589618f")
+	)
+	(fp_line
+		(start 3.888 -1.33)
+		(end 3.888 1.33)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "B.SilkS")
+		(uuid "ace3e6fc-5334-455c-8285-004ef2525b30")
+	)
+	(fp_line
+		(start 3.888 1.33)
+		(end 1.118627 1.33)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "B.SilkS")
+		(uuid "44e2de6b-31e9-421c-9cc0-8386c9c4bcb2")
+	)
+	(fp_arc
+		(start 1.118627 1.33)
+		(mid -1.768738 0)
+		(end 1.118627 -1.33)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "B.SilkS")
+		(uuid "ce5387c1-69da-46c7-9c8d-b7680ea78f2e")
+	)
+	(fp_line
+		(start 1.118627 1.33)
+		(end 3.888 1.33)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "d5a0a182-ae82-4c65-a8b8-74385fb88fe0")
+	)
+	(fp_line
+		(start 3.888 -1.33)
+		(end 1.118627 -1.33)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "43ceac59-0470-4590-b0b8-45bf5eab6c8d")
+	)
+	(fp_line
+		(start 3.888 1.33)
+		(end 3.888 -1.33)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "0bff53de-b823-4de3-9b13-492e26e17227")
+	)
+	(fp_arc
+		(start 1.118627 1.33)
+		(mid -1.768738 0)
+		(end 1.118627 -1.33)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "5c1a83f6-e16b-4b24-88a1-2c8359d2223a")
+	)
+	(fp_line
+		(start -1.772 -1.772)
+		(end 1.772 -1.772)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4ae440bb-042a-40e0-9bc5-f8b85202e3a1")
+	)
+	(fp_line
+		(start -1.772 1.772)
+		(end -1.772 -1.772)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6e74424d-787e-439f-827a-4791a12c993a")
+	)
+	(fp_line
+		(start 1.772 -1.772)
+		(end 1.772 1.772)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "778d8c55-4e5a-4e13-962d-8dac2f60129f")
+	)
+	(fp_line
+		(start 1.772 1.772)
+		(end -1.772 1.772)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b19ecfed-d2f7-436e-a933-edbf3d96369d")
+	)
+	(fp_line
+		(start 1.118627 1.33)
+		(end 3.888 1.33)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "fc7255cb-40fb-4955-931c-08f557e9ec57")
+	)
+	(fp_line
+		(start 3.888 -1.33)
+		(end 1.118627 -1.33)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "e1439c3e-90ed-43b5-862c-f06493ef04e3")
+	)
+	(fp_line
+		(start 3.888 1.33)
+		(end 3.888 -1.33)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "36297ff4-bf7c-4911-8745-d58195d5de2c")
+	)
+	(fp_arc
+		(start 1.118627 1.33)
+		(mid -1.768738 0)
+		(end 1.118627 -1.33)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "2de4f07c-0480-4d8b-8d9f-bdd076b8b8e3")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 1.3 -2.54 0)
+		(layer "F.Fab")
+		(uuid "eeffcb6e-6d4d-4c14-ac82-1649c3be6c28")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 2.3 2.3)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "60c383a7-a2a2-4fe2-ae6b-917b87ebbf36")
+	)
+	(pad "2" thru_hole circle
+		(at 2.54 0)
+		(size 1.4 1.4)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "8d9352cb-2131-4e21-b9fc-9a69d16ec262")
+	)
+	(model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x02_P2.54mm_Vertical.wrl"
+		(hide yes)
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 -90)
+		)
+	)
+	(model "${KIPRJMOD}/library/project.3dshapes/TestPoint_5283.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+	(model "${KIPRJMOD}/library/project.3dshapes/TestPoint_5288.step"
+		(hide yes)
+		(offset
+			(xyz -0.16 0.25 2)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)
