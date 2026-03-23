@@ -44,6 +44,7 @@ To open and edit the design:
 ## Related Repositories
 
 - **Firmware**: [NEVC-MTR1-t01](https://github.com/Nexperia/NEVC-MTR1-t01) - Trapezoidal control firmware for the evaluation kit
+- **Motor Controller Board** [NEVB-MTR1-C-1](https://github.com/Nexperia/NEVB-MTR1-C-1) - Design files for the motor controller board
 
 ## Safety Precautions
 
